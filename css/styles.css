@@ -729,12 +729,6 @@ ul {
   color: #757575;
 }
 
-/* .benefits-list a {
-  display: block;
-  text-decoration: none;
-  color: var(--title-text-color);
-} */
-
 /*----------------PORTFOLIO CARDS-----------------*/
 .portfolio-link:hover,
 .portfolio-link:focus {
@@ -869,25 +863,10 @@ ul {
   fill: var(--accent-color);
 }
 
-/* .icon-btn-close:hover,
-.icon-btn-close:focus {
-  outline: none;
-} */
-
 /*--------------------------------FORM-----------------------*/
 .form {
   padding: 40px;
-  /* margin: 0; */
 }
-
-/* .form-field {
-  display: flex;
-} */
-/* 
-.form-field ul {
-  padding: 0;
-  margin: 0;
-} */
 
 .label-checkbox {
   display: block;
