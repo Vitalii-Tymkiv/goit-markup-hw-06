@@ -640,13 +640,11 @@ ul {
 }
 
 .social-networks-list {
-  margin-top: 20px;
   margin-bottom: 0;
+  margin-top: 20px;
 }
 .social-text {
-  font-family: Roboto, sans-serif;
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -827,6 +825,7 @@ ul {
   position: absolute;
   top: 50%;
   left: 50%;
+  padding: 40px;
   transform: translate(-50%, -50%);
   width: 528px;
   min-height: 581px;
@@ -864,9 +863,6 @@ ul {
 }
 
 /*--------------------------------FORM-----------------------*/
-.form {
-  padding: 40px;
-}
 
 .label-checkbox {
   display: block;
@@ -977,13 +973,14 @@ ul {
 .field-checkbox {
   position: relative;
   margin-top: 20px;
-  margin-left: 14px;
+  padding-left: 14px;
 }
 
 .form-checkbox:checked + .icon-checkbox {
   border-color: var(--accent-color);
   background-color: var(--accent-color);
-  background-size: cover;
+  background-image: url("../images/iconcheck.svg");
+  background-size: contain;
   background-origin: border-box;
 }
 
@@ -1022,16 +1019,13 @@ ul {
 
 /*----------------------------Submit-BLOCK----------------------*/
 
-.submit-list {
-  display: inline-flex;
-  padding: 0;
-  margin: 0;
-  margin-top: 20px;
+.footer-form {
+  margin-left: auto;
 }
+
 .submit-block {
-  margin-left: 93px;
   display: flex;
-  flex-direction: column;
+  margin-top: 20px;
 }
 
 .form-input-footer {
